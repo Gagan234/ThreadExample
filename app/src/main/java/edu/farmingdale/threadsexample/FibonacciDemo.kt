@@ -27,7 +27,7 @@ fun FibonacciDemoNoBgThrd() {
     var textInput by remember { mutableStateOf("40") }
 
     Column {
-        Spacer(modifier = Modifier.padding(60.dp))
+       // Spacer(modifier = Modifier.padding(60.dp))
         Row {
             TextField(
                 value = textInput,
@@ -62,7 +62,7 @@ fun FibonacciDemoBgThrd() {
     var coroutineScope = rememberCoroutineScope()
 
     Column {
-        Spacer(modifier = Modifier.padding(60.dp))
+        //Spacer(modifier = Modifier.padding(60.dp))
         Row {
             TextField(
                 value = textInput,
